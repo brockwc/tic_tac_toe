@@ -1,0 +1,58 @@
+body {
+  display: block;
+  font-family: Verdana, sans-serif;
+  text-align: center;
+  background-image: url('trianglify-background.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 10px;
+}
+
+#main_container {
+  margin: 10px auto;
+  width: 800px;
+}
+
+.heading {
+  text-align: center;
+  font-size: 50px;
+}
+
+table {
+  margin: 0 auto;
+  height: 30em;
+  width: 30em;
+}
+
+
+tbody {
+  border-color: inherit;
+  display: table-row-group;
+  vertical-align: middle;
+}
+
+tr {
+  display: table-row;
+  border-color: inherit;
+  vertical-align: inherit;
+}
+
+.box_cell {
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 33.3%;
+  height: 33.3%;
+  opacity: .7;
+}
+
+.hover {
+  background-color: grey;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
